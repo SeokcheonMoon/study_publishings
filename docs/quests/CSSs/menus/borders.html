@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../css/grids_menu.css">
+    <style>
+        * {
+            margin-top: 10px;
+        }
+        /* div {전체 div로 지정} */
+        .dotted{
+            border-style: dotted;
+            border-width: 4px;
+            border-color: blue;
+        }
+        /* .solid { class name으로 지정. .점을 찍어 언어사용 */
+        div.solid{ /* tab+class name 으로 지정 */
+            border-style: solid;
+            border-top-width: 5px;
+            border-right-width: 10px;
+            border-bottom-width: 15px;
+            border-left-width: 20px;
+
+            border-left-color: blueviolet;
+            border-bottom-color: chocolate;
+        }
+        .double{ 
+            /* border-style: double; */
+            /* border-width: 5px 10px 15px 20px;   간편키 shorthand 라고도 함*/ 
+            /* border-width: 5px 10px  */
+            /* border-width: 5px 0px 15px 10px  */
+            border: 3px double red;
+            /* border-radius: 10px; 전체 적용 */
+            /* border-radius: 3px 6px 9px 12px; top-left 후 시계 방향 */
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="nav">
+            <li class="nav-item1"><a href="../../../index.html">Home</a></li>
+            <li class="nav-item2"><a href="../menus/borders.html">Border</a></li>
+            <li class="nav-item3"><a href="../menus/colors.html">Color</a></li>
+            <li class="nav-item4"><a href="../menus/texts.html">Text</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>border style</h1>
+        <div class="dotted">A dotted border.</div>
+        <div class="solid">A solid border.</div>
+        <div class="double">A double border.</div>
+    </main>
+
+    <hr>
+</body>
+
+</html>

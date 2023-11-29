@@ -5,11 +5,46 @@
     justify-content: space-around;
 }
 
-.nav-item{
+.nav-item1{
+    background-color: chocolate;
+    padding: 5px;
+}
+.nav-item2{
+    background-color: chocolate;
+    padding: 5px;
+}
+.nav-item3{
+    background-color: chocolate;
+    padding: 5px;
+}
+.nav-item4{
     background-color: chocolate;
     padding: 5px;
 }
 
-.nav-item > a {
+
+.nav-item1 > a {
     text-decoration: none;
+}
+.nav-item2 > a {
+    text-decoration: none;
+}
+.nav-item3 > a {
+    text-decoration: none;
+}
+.nav-item4 > a {
+    text-decoration: none;
+}
+
+.nav-item1:hover{
+    background-color: blue;
+}
+.nav-item2:hover{
+    background-color: pink;
+}
+.nav-item3:hover{
+    background-color: green;
+}
+.nav-item4:hover{
+    background-color: yellow;
 }
