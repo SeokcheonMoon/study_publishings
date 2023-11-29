@@ -1,0 +1,40 @@
+* {
+    margin: 10px;
+}
+
+body {
+    border-style: solid;
+    width: 700px;
+    padding: 20px;
+    margin: 20px;
+    height: 100%;
+}
+
+tr {
+    height: 30px;
+}
+
+td {
+    width: 60px;
+}
+
+.resume {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    font-weight: bold;
+}
+
+.font {
+    font-size: 20px;
+}
+
+.last_1 {
+    text-align: center;
+}
+
+.last_2 {
+    text-align: right;
+}
